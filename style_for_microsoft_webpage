@@ -1,0 +1,307 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border:border-box;
+}
+.navbar{
+    height: 80px;
+    font-size: 25px;
+    background-color:white ;
+    color: #262626;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width:100%;
+    margin-right: 35px;
+}
+/* .nav-logo{ 
+    height: 60px;
+    width: 200px;
+    align-items: center;
+}*/
+.border{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.border:hover{
+   text-decoration: underline;
+}
+
+/* .part2{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100px;
+    width: 20%;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #262626;
+    
+} */
+
+.search-select{
+    background-color: white;
+    width:100px;
+    height: 45px;
+    text-align: center;
+    border: none;
+}
+.search-icon{
+    width:60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    background-color: white;
+}
+
+.cart{
+    width: 60px;
+    font-size: 25px;
+}
+
+.hero-section{
+    background-image: url("micro1.jpg");
+    background-size: cover;
+    height: 600px;
+    width:100%;
+    display: flexbox;
+    border-radius: 45px;
+
+}
+
+
+.hero-msg1{
+    display: flex;
+    align-items: normal;
+    background-color:none;
+    font: bolder;
+    font-size: 35px;
+    width: 45%;
+    margin-top: 0px;
+    color: #262626;
+}
+.card2{
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: normal;
+    padding-right: 10px;
+    gap: 30px;
+}
+
+
+ 
+
+
+
+
+/* Container for all cards */
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;                    
+  gap: 30px;                           /* space between cards */
+  justify-content: space-evenly;      
+  align-items: stretch;               /* ensures cards stretch to same height in a row */
+  padding: 30px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Individual card styling */
+.card {
+  flex: 1 1 400px;                     /* base width bigger: 400px minimum basis */
+  min-width: 350px;                    /* do not shrink too much */
+  max-width: 600px;                    /* cap maximum width */
+  background-color: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  box-shadow: 0 6px 10px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  transition: transform 0.2s, box-shadow 0.2s;
+  
+  /* Added to enforce more height */
+  min-height: 500px;                   /* ensure cards are at least this tall */
+}
+
+/* Hover effect */
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 14px 20px rgba(0,0,0,0.2);
+}
+
+/* Image part of card */
+.card-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+/* Content + Title + Description + Action spaced vertically */
+.card-content {
+  padding: 25px;
+  flex: 1;                              /* take remaining vertical space */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;     /* push bottom section (button) down & title up */
+}
+
+/* Title sized up */
+.card-title {
+  font-size: 1.8rem;
+  margin: 0 0 15px 0;
+  color: #333;
+}
+
+/* Description a bit bigger with more line height */
+.card-description {
+  font-size: 1.2rem;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+/* Action section (button) */
+.card-action {
+  text-align: center;
+  padding: 25px;
+  background-color: #fafafa;
+}
+
+.card-button {
+  text-decoration: none;
+  color: white;
+  background-color: #0078d4;
+  padding: 16px 32px;                  /* bigger padding */
+  border-radius: 5px;
+  font-size: 1.2rem;
+  display: inline-block;
+  transition: background-color 0.2s;
+}
+
+.card-button:hover {
+  background-color: #005a9e;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hero-section2{
+    background-image: url("micro2.jpg");
+    background-size: cover;
+    height: 550px;
+    width:100%;
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    border-radius: 45px;
+    padding: auto;
+    
+    
+
+}
+
+
+.hero-msg2{
+    display: flex;
+    align-items: normal;
+    background-color:none;
+    font: bolder;
+    font-size: 50px;
+    width: 45%;
+    margin-top: 25px;
+    margin-left: 25px;
+    color: white;
+}
+
+.foot-panel1{
+    background-color: white;
+    color: #616161;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.foot-panel2{
+    margin-top: 10px;
+    background-color: whitesmoke;
+    color: #616161;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+h3{
+    font: 500 sans-serif;
+    margin-top: 30px;
+}
+
+ul p{
+    display: block;
+    font-size: .90rem;
+    margin-top:10px;
+    color: #616161;
+}
+
+.foot-panel3{
+    background-color:white;
+    color: #616161;
+    border-top: 0.5px solid white;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.logo{
+    background-image: url("microsoft_logo.jpg");
+    background-size: cover;
+    height: 80px;
+    width: 200px;
+}
+
+.foot-panel4{
+    background-color: white;
+    color: #616161;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100px;
+    font-size: 0.65rem;
+}
+.foot-panel4.hover{
+    text-decoration: underline;
+
+}
+
+
+
+.pages{
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
+    font-size: 1rem;
+    text-decoration: underline;
+}
+
+
