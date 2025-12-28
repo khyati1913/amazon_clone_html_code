@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Microsoft</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />">
+    <link rel="stylesheet" href="graphic2.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+        <div class="logo" ></div>
+        
+        <div class="nav-address border">
+            <p class="add-first"> Microsoft365</p>
+        </div>
+        <div class="teams border">
+            <p>Teams</p>
+        </div>
+        <div class="copilot border">
+            <p>copilot</p>
+        </div>
+        <div class="windows border">
+            <p>windows</p>
+        </div>
+         <div class="surface border">
+            <p>Surface</p>
+        </div>
+        <div class="Xbox border">
+            <p>Xbox</p>
+        </div>
+        <div class="support border">
+            <p>support</p>
+        </div>
+
+        <div class="nav-search  search-box">
+                <select  class="search-select">
+                    <option>All Microsoft</option>
+                </select>
+        </div>
+        <div class="search-icon">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <div class="cart">
+            <i class="fa-solid fa-cart-shopping"></i>
+            cart
+        </div>
+    </header>
+    <div class="hero-section">
+        <div class="hero-msg1">
+            <p>                                                                                    <br>
+                                                                                                    <br>
+                                                                                                    <br>
+                                                                                                    <br>
+                                                                                                     <br>
+                                                                                                     <br> 
+            Achieve the Extraordinary<br>
+            Microsoft365 delivers cloud storage, security and Microsoft Copilot in your favourite apps – all in one plan.</p>
+        </div>
+        
+    </div>
+
+
+    
+
+    <div class="cards-container">
+
+    <div class="card">
+      <div class="card-image">
+        <img src="box1micro.jpg" alt="Image description 1">
+      </div>
+      <div class="card-content">
+        <h2 class="card-title">Surface pro , Copilot + PC</h2>
+        <p class="card-description">
+          This laptop's unrivalled flexibility and AI <br>features like Cocreator , enable you to do <br>more then you imaginend.         </p>
+      </div>
+      <div class="card-action">
+        <a href="abc" class="card-button">Learn more</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-image">
+        <img src="box2micro.jpg" alt="Image description 2">
+      </div>
+      <div class="card-content">
+        <h2 class="card-title">Copilot is your AI champion</h2>
+        <p class="card-description">
+          Always by your side , ready to support  you <br> whenever and wherever you need it.
+        </p>
+      </div>
+      <div class="card-action">
+        <a href="URL_BUTTON2" class="card-button">Download the copilot app</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-image">
+        <img src="box3micro.jpg" alt="Image description 2">
+      </div>
+      <div class="card-content">
+        <h2 class="card-title">Xbox series S</h2>
+        <p class="card-description">
+          Next-gen performance in the smallest <br> Xbox ever.
+        </p>
+      </div>
+      <div class="card-action">
+        <a href="URL_BUTTON2" class="card-button">Shop Xbox series S </a>
+      </div>
+    </div>
+
+
+
+
+
+
+    <div class="card">
+      <div class="card-image">
+        <img src="box4micro.jpg" alt="Image description 2">
+      </div>
+      <div class="card-content">
+        <h2 class="card-title">Xbox series X</h2>
+        <p class="card-description">
+          The fastest , most powerful Xbox ever 
+        </p>
+      </div>
+      <div class="card-action">
+        <a href="URL_BUTTON2" class="card-button">Shop Xbox series X</a>
+      </div>
+    </div>
+
+    
+
+  </div>
+
+
+
+  <div class="hero-section2">
+        <div class="hero-msg2">
+            <p>                                                                                    <br>
+                                                                                                    <br>
+                                                                                                    <br>
+                                                                                                    <br>
+                                                                                                     <br>
+                                                                                                     <br> 
+                    Xbox Game Pass<br>
+                       Ultimate
+           </p>
+        </div>
+        
+    </div>
+
+
+     <div class="card2">
+    <div class="card">
+      <div class="card-image">
+        <img src="box5micro.jpg" alt="Image description 2">
+      </div>
+      <div class="card-content">
+        <h2 class="card-title">Surface Pro for Buisness</h2>
+        <p class="card-description">
+          Ultra-versatile and built with intel core <br> Ultra Processors (series 2) that Power AI <br>exoeriences 
+        </p>
+      </div>
+      <div class="card-action">
+        <a href="URL_BUTTON2" class="card-button"> Learn more</a>
+      </div>
+    </div>
+
+
+
+    <div class="card">
+      <div class="card-image">
+        <img src="box6micro.jpg" alt="Image description 2">
+      </div>
+      <div class="card-content">
+        <h2 class="card-title">Microsoft 365 copilot</h2>
+        <p class="card-description">
+          save time and focous on things that<br> matter most with AI in Microsoft 365 for<br> business.
+        </p>
+      </div>
+      <div class="card-action">
+        <a href="URL_BUTTON2" class="card-button">Learn more</a>
+      </div>
+    </div>
+
+
+
+    <div class="card">
+      <div class="card-image">
+        <img src="box7micro.jpg" alt="Image description 2">
+      </div>
+      <div class="card-content">
+        <h2 class="card-title">Get Microsoft Teams for your <br> business</h2>
+        <p class="card-description">
+          Online meetings ,chat ,real-time<br> collaboration , and shared cloud storage - <br>all in one place 
+        </p>
+      </div>
+      <div class="card-action">
+        <a href="URL_BUTTON2" class="card-button">Find the right plan for your buisness</a>
+      </div>
+    </div>
+
+
+
+    <div class="card">
+      <div class="card-image">
+        <img src="box8micro.jpg" alt="Image description 2">
+      </div>
+      <div class="card-content">
+        <h2 class="card-title">20% off windows 365</h2>
+        <p class="card-description">
+          Experiences seamless productivity with <br> windows 365 cloud PC - delivering the <br> full windows experience on any device.
+        </p>
+      </div>
+      <div class="card-action">
+        <a href="URL_BUTTON2" class="card-button">Learn more</a>
+      </div>
+    </div>
+  </div>
+  
+  
+
+
+
+  <footer>
+        <div class="foot-panel1">
+            Back to top
+        </div>
+        <div class="foot-panel2">
+            <ul>
+                <h3>what's new</h3>
+                <p>Surface pro</p>
+                <p>Surface laptop</p>
+                <p>Copilot for organisations</p>
+                <p>Copilot for personal use</p>
+                <p>Microsoft 365</p>
+                <p>Explore microsoft products</p>
+                <p>windows 11 apps</p>
+            </ul>
+            <ul>
+                <h3>Microsoft store</h3>
+                <p>Account profile</p>
+                <p>Download center</p>
+                <p>Microsoft store support</p>
+                <p>Returns</p>
+                <p>Order tracking</p>
+            </ul>
+            <ul>
+                <h3>Education</h3>
+                <p>Microsoft in education</p>
+                <p>Devices for education</p>
+                <p>Microsoft Teams for education</p>
+                <p>Microsoft 365 education</p>
+                <p>Office Education</p>
+                <p>Educator Training and development</p>
+                <p>Deals for students and parents</p>
+                <p>Azure for students</p>
+            </ul>
+            <ul>
+                <h3>Business</h3>
+                <p>Microsoft cloud</p>
+                <p>Microsoft security</p>
+                <p>Azure</p>
+                <p>Dynamics 365</p>
+                <p>Microsoft 365</p>
+                <p>Microsoft Advertising</p>
+                <p>Microsoft 365 copilot</p>
+                <p>Microsoft Teams</p>
+            </ul>
+            <ul>
+                <h3>Developer & IT</h3>
+                <p>Microsoft Developer</p>
+                <p>Microsoft Learn</p>
+                <p>Support for AI marketplace apps</p>
+                <p>Microsoft Tech Community</p>
+                <p>Azure Marketplace</p>
+                <p>App source</p>
+                <p>Microsoft Power Platform</p>
+                <p>Visual studio</p>
+            </ul>
+            <ul>
+                <h3>Company</h3>
+                <p>careers</p>
+                <p>About Microsoft</p>
+                <p>Company news</p>
+                <p>Privacy at Microsoft</p>
+                <p>Investors</p>
+                <p>security</p>
+                <p>Sustainability</p>
+            </ul>
+
+
+        </div>
+        <div class="foot-panel3">
+            <div class="logo" ></div>
+        </div>
+        <div class="foot-panel4">
+            <div class="pages">
+                <a>Contact Microsoft</a>
+                <a>Privacy </a>
+                <a>Terms of use </a>
+                <a> Trademarks</a>
+                <a>About our ads</a>
+                <a>* Microsoft 2025</a>
+            </div>
+          </div>
+
+
+    </footer>
+
+
+</body>
+</html>
+
+
+
+
+
+    
+</body>
+</html>
